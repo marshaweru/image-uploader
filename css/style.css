@@ -14,3 +14,11 @@
     width: 100%;
     min-height: 100vh;
 }
+/*Beautify drop-area ID*/
+#drop-area{
+    height: 300px;
+    padding: 30px;
+    width: 500px;
+    text-align: center;
+    background: wheat;
+}
