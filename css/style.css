@@ -7,5 +7,8 @@
 /*Boiler plate css above*/
 /*Styling for hero class*/
 .hero{
-    
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    background: linear-gradient(rgb(211, 170, 170), rgb(127, 209, 127));
 }
