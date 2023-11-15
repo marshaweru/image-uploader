@@ -10,5 +10,7 @@
     display: flex;
     align-content: center;
     justify-content: center;
-    background: linear-gradient(rgb(211, 170, 170), rgb(127, 209, 127));
+    background: linear-gradient(rgb(211, 170, 170), rgb(152, 127, 209));
+    width: 100%;
+    min-height: 100vh;
 }
