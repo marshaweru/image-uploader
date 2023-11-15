@@ -8,7 +8,7 @@
 /*Styling for hero class*/
 .hero{
     display: flex;
-    align-content: center;
+    align-items: center;
     justify-content: center;
     background: linear-gradient(rgb(211, 170, 170), rgb(152, 127, 209));
     width: 100%;
@@ -19,6 +19,7 @@
     height: 300px;
     padding: 30px;
     width: 500px;
+    border-radius: 20px;
     text-align: center;
     background: wheat;
 }
