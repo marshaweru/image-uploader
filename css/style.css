@@ -25,5 +25,9 @@
 }
 /*Decorate img-view id*/
 #img-view{
-    
+    border-radius: 22px;
+    border: 3px dashed rgb(65, 62, 59);
+    width: 100%;
+    background: rgb(143, 92, 92);
+    height: 100%;
 }
