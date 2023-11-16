@@ -33,5 +33,10 @@
 }
 /*Decorate icon*/
 #img-view img{
+    margin-top: 25px;
+    width: 100px;
+}
+/*img text in span*/
+#img-view span{
     
 }
