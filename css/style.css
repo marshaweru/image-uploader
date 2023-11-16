@@ -38,5 +38,8 @@
 }
 /*img text in span*/
 #img-view span{
-    
+    color: rgb(61, 56, 56);
+    margin-top: 15px;
+    font-size: 13px;
+    display: block;
 }
