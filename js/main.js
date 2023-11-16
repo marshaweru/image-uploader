@@ -4,3 +4,6 @@ const inputFile = document.getElementById("input-file");
 const imageView = document.getElementById("img-view");
 
 //Add event in input-field
+inputFile.addEventListener("change", uploadImage);
+
+//define upload image function
