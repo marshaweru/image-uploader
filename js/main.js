@@ -9,4 +9,6 @@ inputFile.addEventListener("change", uploadImage);
 //define upload image function
 function uploadImage(){
     let imgLink = URL.createObjectURL(inputFile.files[0]);
+    imageView.style.backgroundImage = `url(${imgLink})`
 }
+//In above code, last line img link will be added as img view as a background
