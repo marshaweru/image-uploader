@@ -10,5 +10,7 @@ inputFile.addEventListener("change", uploadImage);
 function uploadImage(){
     let imgLink = URL.createObjectURL(inputFile.files[0]);
     imageView.style.backgroundImage = `url(${imgLink})`
+    imageView.textContent = "";
 }
-//In above code, last line img link will be added as img view as a background
+//In above code, second-last line img link will be added as img view as a background
+//In the last line we remove the text and icon
