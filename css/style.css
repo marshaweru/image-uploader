@@ -28,6 +28,8 @@
     border-radius: 22px;
     border: 3px dashed rgb(65, 62, 59);
     width: 100%;
+    background-size: cover;
+    background-position: center;
     background: rgb(209, 183, 183);
     height: 100%;
 }
