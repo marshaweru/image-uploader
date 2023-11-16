@@ -16,3 +16,5 @@ function uploadImage(){
 //In above code, third-last line img link will be added as img view as a background
 //In the second-last line we remove the text and icon
 //In the last line we remove the border
+
+//Add drag and drop functionality
