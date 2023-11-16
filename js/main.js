@@ -8,5 +8,5 @@ inputFile.addEventListener("change", uploadImage);
 
 //define upload image function
 function uploadImage(){
-    let imgLink = URL.createObjectURL(inputFile.file[0]);
+    let imgLink = URL.createObjectURL(inputFile.files[0]);
 }
