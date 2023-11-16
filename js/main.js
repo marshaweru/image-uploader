@@ -18,3 +18,12 @@ function uploadImage(){
 //In the last line we remove the border
 
 //Add drag and drop functionality
+dropArea.addEventListener("dragover", function(e){
+    e.preventDefault();
+});
+//Add another event listener for drop
+dropArea.addEventListener("drop", function(e){
+    e.preventDefault();
+    inputFile.files = e.dataTransfer.files;
+    uploadImage();
+});
